@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="Print.fs" />
+      <Content Include="FunctionValues.fs" />
+      <Content Include="OrganizingFSharpCode.fs" />
+      <Content Include="RecursiveFunctions.fs" />
+      <Content Include="SymbolicOperators.fs" />
+      <Compile Include="FunctionComposition.fs" />
+      <Compile Include="PatternMatching.fs" />
+      <Compile Include="UnionsAndRecords.fs" />
+      <Compile Include="LazyAndSeq.fs" />
+      <Compile Include="Queries.fs" />
+      <Compile Include="Mutable.fs" />
+      <Compile Include="UnitsOfMeasure.fs" />
+      <Compile Include="Arrays.fs" />
+      <Compile Include="MutableCollectionTypes.fs" />
+      <Compile Include="LoopingConstructs.fs" />
+      <Compile Include="Exceptions.fs" />
+      <Compile Include="UnderstandingClasses.fs" />
+      <Compile Include="Interfaces.fs" />
+      <Compile Include="ObjectExpressions.fs" />
+      <Compile Include="Extending.fs" />
+      <Compile Include="Enumerations.fs" />
+      <Compile Include="Structs.fs" />
+      <Compile Include="AppliedOOP.fs" />
+      <Compile Include="Program.fs" />
+    </ItemGroup>
+
+</Project>
